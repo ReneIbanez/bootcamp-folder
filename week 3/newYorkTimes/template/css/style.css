@@ -1,0 +1,177 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+header{
+
+width: 100%;
+height: 200px;
+}
+
+header img{
+
+  margin: 0 0 0 35% ;
+  height: 75px;
+  width: 30%;
+}
+header nav ul li{
+  display: inline;
+  margin-top: 20px;
+
+}
+
+header nav ul li button{
+  background: none;
+      border: none;
+      font-size: 12px;
+      font-weight: bolder;
+      margin-left: -4px;
+}
+.suscribe{
+  background-color: #626298;
+      FONT-SIZE: 18PX;
+      BORDER-RADIUS: 8PX;
+      COLOR: white;
+
+}
+.leftNav{
+  margin-left: 430px;
+
+}
+
+.rightNav{
+  margin-right:455px;
+
+}
+
+header section img{
+  text-align: center;
+
+}
+
+img + ul li{
+  display: inline;
+  margin: 0 0 0 2%;
+
+}
+.wednesday{
+  margin-left: 30%;
+
+}
+.world{
+  margin-top: 1%;
+  border-top: 1px solid black;
+
+}
+.world ul li a{
+  padding-left: 27PX;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+
+.leftSide{
+  width: 15%;
+  border: 1px solid black;
+  float: left;
+}
+
+
+.middle{
+  width:45%;
+  border: 1px solid black;
+  float: left;
+}
+.trump{
+  width: 100%;
+  height: 260px;
+  background-color: blue;
+  border: 1px solid black;
+}
+#float h3{
+margin-left: 40%;
+}
+
+#float{
+width: 40%;
+  border: 1px solid black;
+  float: left;
+}
+
+#float section{
+  float: left;
+  width: 50%;
+  border: 1px solid black;
+}
+
+#float img{
+  height: 45px;
+  width: 22%;
+  border: 1px solid black;
+  float: right;
+
+}

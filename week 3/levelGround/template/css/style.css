@@ -1,0 +1,299 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: "";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+header , footer{
+  width: 100%;
+      height: 744px;
+
+      clear: both;
+      background-color: rgb(92, 107, 129);
+  }
+
+
+ul li{
+float: left;
+color: white;
+margin-left: 45px;
+font-size: 14px;
+font-weight: bold;
+}
+
+
+img{
+
+  float: left;
+margin-left: 28%;
+/* padding: inherit; */
+height: 82px;
+margin-top: -24px;
+}
+
+
+  button{
+    margin-right: 75px;
+    float: right;
+    width: 7%;
+    height: 40px;
+  }
+
+h1 {
+  font-size: 60px;
+text-align: center;
+color: white;
+padding-top: 15%;
+FONT-WEIGHT: 600;
+}
+
+h1+p{
+
+  width: 76%;
+  font-size: 20PX;
+  MARGIN:  0 auto;
+  MARGIN-TOP: 50PX;
+  text-align: center;
+      color: white;
+}
+
+.topVideo a{
+  /* border: 1px solid black; */
+  width: 100%;
+  float: left;
+  /* display: inline; */
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 100;
+  /* border: navajowhite; */
+  text-decoration: none;
+  padding-top: 65px;
+
+
+
+
+
+
+
+
+
+}
+section h2{
+  font-size: 65px;
+text-align: center;
+padding-top: 90PX;
+  font-weight: 100;
+  }
+
+section h2+p{
+  font-size: 20px;
+  width: 52%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 15%;
+
+
+    }
+
+
+
+#middleSquare{
+border: 1px solid black;
+width: 100%;
+background-color: gray;
+float: left;
+padding-bottom: 25%;
+text-align: center;
+}
+
+section>section{
+  width: 45%;
+  float: left;
+  margin-left: 0%;
+  padding-left: 3%;
+  /*border: 1px solid black:*/
+}
+
+section>section img{
+  height: 319px;
+width: 100%;
+float: none;
+display: block;
+/* margin: 0 auto; */
+/* padding-top: 19%; */
+background-color: rgba(113, 127, 149, 0.97);;
+margin-top: 35%;
+margin-left: 8%;
+}
+
+section > section h2{
+  font-size: 35px;
+padding-bottom: 0;
+padding-top: 10PX;
+}
+
+section > section h2 + p{
+  width:  100%;
+  font-size: 16px;
+}
+
+section> section a{
+  border: 1px solid black;
+    font-size: 22px;
+        padding: 31px 73px;
+}
+.bottomHeader{
+  clear: both;
+}
+.bottomHeader h2{
+font-size: 50px;
+
+}
+.bottomHeader a{
+text-align: center;
+display: block;
+margin: 0 auto;
+font-size:  20px;
+padding-bottom: 9%;
+}
+
+
+footer{
+height: 290px;
+color: black;;
+
+}
+
+
+/*.clearfix .iconsNsight{*/
+  float: left;
+}
+
+footer section>h3{
+  color: gray;
+
+}
+
+
+
+
+
+ .last ul li{
+  color: white;
+display: inline;
+float: left;
+margin-left: -2%;
+padding-left: 84px;
+font-size: 20px;
+
+}
+
+.last .address{
+  float: right;
+}
+
+
+address h3{
+  color: white;
+}
+
+
+
+footer{
+  background-color: #23232b;
+}
+footer section {
+  float: left;
+  width: 50%;
+  text-align: left;
+
+}
+footer h3{
+  display: block;
+  color: rgba(255, 255, 255, 0.22);
+}
+
+footer a{
+  color: white;
+  display: inline;
+}
+
+footer ul li{
+  color: white;
+  float: none;
+}
+
+.address{
+  text-align: right;
+}
+
+.address h3{
+  color: white;
+}
+.adress>h4+h3{
+  color: rgba(255, 255, 255, 0.22);
+
+}

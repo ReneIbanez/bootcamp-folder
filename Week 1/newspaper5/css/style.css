@@ -1,0 +1,152 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+header {
+  border: 1px solid black;
+  height: 131px;
+  width: 100%;
+  clear: both;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+header img{
+  height: 36px;
+  width: 52px;
+
+  float: left;
+  margin: 62px 0px 0px 150px;
+}
+
+header ul li{
+  padding-left: 40px;
+  margin-top: 9px;
+  float: left;
+}
+header ul{
+  margin: 60px 33%;
+}
+header+section h1{
+  margin-left: 90px;
+  font-size: 28PX;
+}
+header a{
+  padding-left: 58px;
+  font-size: 20px;
+  color: gray;
+   margin: 0 0 0px -8px;
+
+}
+
+.bigFace> section{
+  background-color: rgba(255, 255, 255, 0.45);
+  width: 50%;
+  height: 123px;
+  padding: 20px;
+  margin-left: 70px;
+}
+
+.bigFace{
+  background:url("https://cdn.vox-cdn.com/thumbor/sEb52atLq3m9EeA-oNvlrxKFh9g=/0x109:2574x1825/1200x800/filters:focal(0x109:2574x1825)/cdn.vox-cdn.com/uploads/chorus_image/image/45806878/EPaoLowRes.0.0.jpg");
+  height: 726px;
+  width: 101%;
+  padding-top: 40%;
+  clear: both;
+}
+
+
+.buffy img{
+  width: 17%;
+  float: left;
+  margin-left: 16%;
+}
+
+}
+
+.buffy div{
+  width: 20%;
+  float: left;
+}
+
+.buffy h3, .buffy h4{
+    font-size: 23px;
+    width: 42%;
+    font-weight: lighter;
+    margin-left: 155px;
+
+}
+.buffy h4{
+  text-align: center;
+  float: left;
+  margin-left: -126px;
+  font-size: 15px;
+  color: blue;
+  margin-top: -12px;
+}
+
+.buffy span{
+  color: gray;
+  margin-left: 11px;

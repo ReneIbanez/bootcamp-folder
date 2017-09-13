@@ -1,0 +1,306 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES*/
+
+header{
+  border-bottom: 1px solid green;
+  width: 100%;
+  height:75px;
+  background-color: black;
+
+}
+header img, header span, header nav, header form, header li{
+  float: left;
+
+}
+header img{
+      width: 155px;
+      height: 76px;
+}
+
+header span,header form{
+  margin-top: 45px;
+  float: right;
+}
+
+header ul{
+  margin-top: 50px;
+  list-style:none;
+}
+
+header li{
+
+}
+header li a{
+  text-decoration:none;
+  color: white;
+  margin-right: 60px;
+}
+
+header + section{
+  width:100%;
+  color: white;
+}
+
+header + section > h3{
+  width: 50%;
+  float:left;
+  color: black;
+  font-size: 20px;
+}
+
+.rightside{
+  text-align: right;
+}
+
+section{
+  border: 1px solid black;
+}
+
+.Trump{
+  width: 50%;
+  height: 324px;
+  float: left;
+  background-image: url("http://i2.cdn.turner.com/money/dam/assets/170128174305-trump-travel-ban-working-out-very-nicely-00001618-1100x619.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topSec{
+  width: 25%;
+  height: 162px;
+  float: left;
+  background-image:url("http://i2.cdn.turner.com/money/dam/assets/170228222913-donald-trump-congress-address-jobs-immigration-00020025-1280x720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+
+.bottomSec{
+  width: 100%;
+  float: right;
+}
+
+.bottomSec.righBottom{
+  background-image: url("http://i2.cdn.turner.com/money/dam/assets/170806114126-kayleigh-mcenany-trump-1024x576.png");
+
+
+
+}
+
+.bottomSec img{
+  background-image: url("http://i2.cdn.cnn.com/cnnnext/dam/assets/161002085237-trump-09-30-b-large-169.jpg");
+  width: 33.3333%;
+  height: 200px;
+  float: left;
+
+}
+
+
+.bottomSec video{
+
+  background-image: url("http://i2.cdn.cnn.com/cnnnext/dam/assets/161008001109-donald-trump-video-statement-full-169.jpg");
+  height: 200px;
+  width: 33.3333%;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hamburger{
+  display: none;
+
+}
+
+.ulNone{
+  display: block;
+}
+
+li.ulNone{
+  width: 100%;
+  transition: top 4s;
+
+}
+a.ulNone{
+  font-size: 18px;
+  width: 100%;
+  color: black;
+}
+header nav ul.ulNone{
+  position: absolute;
+  top: 11%;
+  left: 85%;
+  background-color: grey;
+  width: 18%;
+  padding: 0 0 0 15px;
+}
+
+
+@media only screen and (max-width: 500px){
+
+  .hamburger{
+    color: gray;
+    display: inline;
+    float: right;
+    width: 55px;
+    height: 60px;
+    font-size: 40px;
+}
+
+
+.Trump h2{
+  font-size: 22px;
+font-weight: 700;
+}
+
+.Trump p{
+margin-top: 144px;
+font-size: 13px;
+font-weight: 700;
+width: 90%;
+}
+
+header ul {
+      margin-top: -20px;
+      list-style: none;
+      margin-left: -18px;
+      padding-left: 40px;
+      display: none;
+  }
+  header li a {
+      text-decoration: none;
+      margin-right: 17px;
+      color: white;
+}
+
+
+
+
+
+.rightside {
+
+    margin-top: -30px;
+  }
+
+
+  header + section > h3 {
+      width: 100%;
+      float: left;
+      color: black;
+      font-size: 20px;
+      margin: 0;
+
+    }
+
+  .bottomSec{
+    width: 100%;
+    display: grid;
+  }
+
+
+
+  header span, header form {
+    margin-top: 55px;
+    float: left;
+    margin-left: -140px;
+}
+
+
+
+
+.Trump {
+    width: 100%;
+    height: 324px;
+    float: left;
+    background-image: url(http://i2.cdn.turner.com/money/dam/assets/170128174305-trump-travel-ban-working-out-very-nicely-00001618-1100x619.jpg);
+    background-position: bottom;
+  }
+
+
+
+
+
+
+
+.bottomSec img {
+    background-image: url(http://i2.cdn.cnn.com/cnnnext/dam/assets/161002085237-trump-09-30-b-large-169.jpg);
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+
+
+.bottomSec video {
+    background-image: url(http://i2.cdn.cnn.com/cnnnext/dam/assets/161008001109-donald-trump-video-statement-full-169.jpg);
+    height: 200px;
+    width: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }

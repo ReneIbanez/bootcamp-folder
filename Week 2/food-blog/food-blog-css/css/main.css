@@ -1,0 +1,81 @@
+body{
+  width: 1280px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 a {
+  text-decoration-line: none;
+  color: red;
+  font-weight: 300;
+  font-size: 100px;
+
+}
+h2{
+  color: black;
+  font-weight: 400;
+  font-size: 37px;
+}
+nav a{
+  color: rgba(141, 136, 136, 0.26);
+  font-weight: 300;
+  margin: 0px 64px 0 0;
+  padding: 0 0px 0px 0;
+  font-size: 26px;
+  font-stretch: 100px;
+}
+header nav ul li{
+  padding: 20 20 10 20;
+}
+article h3{
+  color:rgba(128, 128, 128, 0.32);
+  font-weight: 100;
+  font-size:50px;
+}
+h2 a{
+  color:black;
+  text-decoration-line: none;
+  font-weight: 90;
+  font-size: 50px;
+}
+img{
+  width: 80%;
+
+}
+
+p{
+  color: rgba(24, 24, 24, 0.84);
+  font-weight: 500;
+  font-size: 30px;
+  margin-right: 31%;
+}
+ article p::first-letter{
+    float: left;
+     font-size: 170px;
+     padding: 0px 5px 4px 0px;
+     margin-top: -30px ;
+    color: rgba(128, 128, 128, 0.29)
+}
+h4 a{
+  color: red;
+  float: right;
+  margin-right: 23%;
+}
+
+h4{
+  border-bottom: 1px solid black;
+ height: 50px;
+}
+h3{
+  color:gray;
+  margin-top:60px;
+
+}
+h2 a{
+  color: black;
+  weight: 100;
+}
+
+footer nav a{
+  color:red;
+}

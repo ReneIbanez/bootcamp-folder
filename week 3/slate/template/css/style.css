@@ -1,0 +1,453 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.majorS{
+  width: 70%;
+  float: left;
+}
+
+.majorS section h2{
+  font-size: 40px;
+  width: 55%;
+  text-align: center;
+  margin: 31px 0px 40px -27px;
+  padding-left: 28px;
+  margin-left: 5%;
+  color: white;
+}
+
+.majorS section>h6{
+  margin-left: 105px;
+margin-top: 10px;
+padding-bottom: 100px
+}
+
+
+.majorS h2>p{
+  font-size: 25px;
+width:  50%;
+}
+
+.majorS >.trumpSec{
+background-image: url("http://media.graytvinc.com/images/810*455/President+Donald+Trump2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+/*.majorS section ul li{*
+float: right;
+/*}*/
+
+.middleTrump img{
+
+background-image: url("http://3.bp.blogspot.com/-jBrmL8C6sp4/TciI2pRAGuI/AAAAAAAAABI/S7sUwhFSum0/s1600/P1000124.JPG");
+background-size: cover;
+
+
+height: 167px;
+width: 45%;
+margin-top: 5px;
+}
+.middleTrump img+h2{
+  width: 46%;
+text-align: start;
+margin-left: 0;
+}
+.middleTrump section+section>h2, .middle section+section>h4{
+  font-size: 22px;
+      width: 65%;
+      text-align: inherit;
+      margin-left: 13px;
+
+}
+
+
+.middleTrump .stayBlack{
+  color: black;
+}
+
+
+.jeffSessions{
+  background-color:rgb(138, 38, 38);
+  color:white;
+
+
+}
+
+
+.middleTrump > section h2{
+  font-size: 30px;
+  font-style: oblique;
+
+font-weight: bold;
+}
+
+  .majorS section>section p{
+  font-size: 32px;
+color: yellow;
+width: 66%;
+margin-left: 5%;
+text-align: center;
+margin-top: -35px;
+}
+
+.majorS section >section{
+
+width: 50%;
+float: left;
+}
+
+.majorS .ulList{
+  font-size: 25px;
+text-align: center;
+color: white;
+border-bottom: 1px solid #ffffff;
+padding-bottom: 0px;
+padding-top: 0px;
+width: 289px;
+margin-left: 95px;
+margin-top: 25px;
+border-top: 1px solid #ffffff;
+}
+
+.majorS section>section>h4{
+  font-size: 15px;
+    text-align: left;
+    padding-bottom: 54px;
+    margin-left: 50px;
+    padding-top: 9px;
+    font-style: italic;
+
+}
+
+.majorS section> section>{
+  font-size: 20px;
+  padding-bottom: 10px;
+
+}
+.trumpSec h6{
+  font-style: italic;
+  color: gray;
+  font-size: 20px;
+
+}
+
+aside h2{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+aside>div{
+  background-color: purple;
+
+}
+
+aside div, aside h2{
+  float: left;
+}
+aside>div h3{
+  font-size: 20px;
+  font-weight: 100;
+  color:white;
+  width: 380px;
+  text-align: center;
+  font-weight: bolder;
+
+}
+aside>div h6{
+  font-size: 15px;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+
+ul{
+  margin-top: 10px;
+}
+
+ li{
+font-size: 24px;
+padding-bottom: 15px;
+font-weight: bold;
+width:  87%;
+color: white;
+font-style: inherit;
+}
+
+header{
+width:  30%;
+float: left;
+
+}
+
+
+header>nav a{
+  font-size: 20px;
+  color: yellow;
+  padding-left: 200px;
+
+}
+
+
+header{
+  background-color:rgb(138, 38, 38);
+}
+header nav{
+background-color: black;
+clear: both;
+padding: 20px 0 20px 0;
+
+}
+
+
+header h1{
+color: white;
+font-weight: bolder;
+width: 55%;
+float: left;
+font-size: 65px;
+margin-top: -16px;
+}
+
+header>nav h3{
+  font-size: 20PX;
+  float: left;
+  color: white;
+
+}
+.fa{
+  font-size: 28px;
+}
+header i{
+
+    color: WHITE;
+      float: left;
+      width: 9%;
+      margin-left: 20px;
+      height: 20px;
+  }
+
+.slate>div>h4{
+color: rgba(128, 128, 128, 0.59);
+padding-top: 15px;
+font-size: 16px;
+  }
+
+.slate>div>h3> a{
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bolder;
+}
+
+.slate>div{
+    border-bottom: 1px solid black;
+    display: table-caption;
+    width: 293%;
+    padding-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: rgba(121, 121, 121, 0.29);
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px){
+  .majorS {
+      width: 100%;
+      float: right;
+    }
+    .majorS section >section {
+        width: 100%;
+    }
+
+    .majorS section h2 {
+    font-size: 40px;
+    width: 95%;
+    text-align: center;
+    margin: 31px 0px 40px -27px;
+    padding-left: 28px;
+    margin-left: 5%;
+    color: white;
+  }
+  .majorS section h2 {
+    font-size: 31px;
+    width: 85%;
+    text-align: center;
+    margin: 31px 0px 40px -27px;
+    padding-left: 28px;
+    margin-left: 5%;
+    color: white;
+  }
+
+}
+
+.majorS section>section p {
+  font-size: 22px;
+  color: yellow;
+  width: 85%;
+  margin-left: 5%;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 450px;
+  font-weight: 700;
+}
+
+
+.majorS section>h6 {
+    margin-left: 138px;
+    margin-top: 10px;
+    padding-bottom: 100px;
+}
+
+.majorS .ulList {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 50%;
+    margin-left: 95px;
+    margin-top: 25px;
+    border-top: 1px solid #ffffff;
+}
+
+
+
+li {
+    font-size: 24px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    width: 91%;
+    color: rgb(170, 79, 61);
+    font-style: inherit;
+    display: none;
+
+  }
+
+  ul {
+    margin-top: 10px;
+    display: none;
+  }
+
+
+.middleTrump img {
+    background-image: url(http://3.bp.blogspot.com/-jBrmL8C6sp4/TciI2pRAGuI/AAAAAAAAABI/S7sUwhFSum0/s1600/P1000124.JPG);
+    background-size: cover;
+    height: 167px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.middleTrump section+section>h2, .middle section+section>h4 {
+    font-size: 22px;
+    width: 100%;
+    text-align: inherit;
+    margin-left: 13px;
+}
+
+
+aside div, aside h2 {
+    float: left;
+    display: none;
+  }
+
+
+.slate{
+  float: right;
+  width: 100%;
+}
+
+
+.slate header {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

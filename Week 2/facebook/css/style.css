@@ -1,0 +1,294 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     /*border: 1px solid black;*/
+}
+html{
+  border:none;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+      color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+header {
+background-color: rgb(59,89,152);
+  height: 50px;
+}
+
+header input{
+  float: left;
+}
+.whiteLeon, .whiteSpan a{
+  color: white;
+  text-decoration: none;
+font-weight: bold;
+}
+
+.fa-question-circle{
+  border-left:1px solid black;
+  padding-left: 3%
+}
+
+nav ul li{
+  display: inline;
+}
+.pokemon a{
+
+}
+
+.leftSideList li a{
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+  width: 40%;
+}
+
+
+section{
+width: 20%;
+float: left;
+
+}
+.middle{
+  width: 50%;
+}
+
+ aside {
+  width: 30%;
+  float: left;
+  background-color:  rgb(223,227,238);
+}
+
+
+.middle section{
+  margin-top: 0px;
+  width: 100%;
+  border: 1px solid black;
+  float: none;
+  height: 235px;
+  background-color: 	rgb(223,227,238);
+}
+.middle .makeWhite{
+  background-color: white;
+}
+.bottomBordMakeWhite img{
+  float: left;
+
+}
+.pokemon{
+  float: left;
+  width: 60%;
+}
+
+
+aside > section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form{
+  float: right;
+  margin-top: 30px;
+}
+header form input{
+  width: 415%;
+}
+
+header+section ul{
+  padding-left: 8px;
+
+}
+header+section{
+  margin: 0 0 0 0px;
+  background-color: 	rgb(223,227,238);
+
+}
+li{
+
+  padding-bottom: 0px;
+  list-style: none;
+}
+
+.list h5{
+color: rgba(128, 128, 128, 0.48);
+font-size: 130%;
+}
+
+
+.middle .makeWhite h3{
+  margin: 0 0 0 180px;
+}
+
+.middle img{
+  margin-left: 5px;
+}
+
+img .pokemon{
+  float: left;
+}
+
+.list{
+  padding: 2px;
+  border: 1px solid black;
+
+}
+
+
+.middle .bottomBordMakeWhite , .pokemon{
+  background-color: white;
+}
+
+.dontFloat{
+  float: none;
+}
+
+li img{
+  height: 20px;
+}
+
+#leon img, #leon h4{
+  float: left;
+
+}
+.makeWhite img{
+  height: 35px;
+  width: 68px;
+}
+header+section li{
+  width: 90px;
+  padding-bottom: 3px;
+}
+#leon h4{
+   margin: 7px 0 19 px 2px;
+}
+
+header li{
+  margin: 0 30px 0 0;
+}
+
+.imgpics img{
+  height: 43px;
+  width: 35px;
+  float: left;
+  margin-left: 0 0 13px 0px;
+}
+.imgpics span{
+  width: 100%;
+  display: block;
+}
+.imgpics h4{
+margin: -30px 0 0 40px;
+float: left;
+}
+.imgpics input{
+  margin-top: 127px;
+}
+#leon img{
+  width: 30px;
+  height: 30px;
+}
+.bottomBordMakeWhite img{
+    height: 150px;
+    width:250px;
+    margin-top: 5%;
+}
+h4{
+ color:  rgba(87, 87, 224, 0.94);
+ font-size: 14px;
+}
+
+h6{
+  color:black;
+  font-size: 14px;
+  margin-top: 17px;
+}
+
+.list{
+  background-color: white;
+}
+.bottomFriend{
+  background-color: white;
+  border: 1px solid black;
+  width: 90%;
+}
+
+.bottomFriend img{
+  border: 1px solid black;
+  height: 55px;
+  width: 20%;
+  float: left;
+}
+.nameButton {
+  float: left;
+  width:80%;
+}
+.nameButton h4{
+  margin-top: 3px;
+}
